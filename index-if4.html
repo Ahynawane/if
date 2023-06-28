@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If 4</title>
+</head>
+<body>
+    <script>
+        let a = prompt("informe o valor de a")
+        let b = prompt("informe o valor de b")
+        let c = prompt("informe o valor de c")
+
+        let delta = (b**2)-4*a*c
+
+        let x1 = (-b + Math.sqrt(delta))/2*a
+        let x2 = (-b - Math.sqrt(delta))/2*a
+
+        
+        if(delta < 0){
+            document.write("Delta menor que 0, portanto não existem raízes reais")
+        }else{
+            document.write("x1= ", x1, " e x2= ", x2)
+        }
+    </script>
+</body>
+</html>
