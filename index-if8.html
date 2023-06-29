@@ -13,9 +13,43 @@
         let idade4 = Number(prompt("digite a quarta idade"))
         let idade5 = Number(prompt("digite a quinta idade"))
 
-        if (idade1 >idade2){
-            
+        let maior = -1
+
+        if(idade1 > maior){
+            maior = idade1
+        } 
+        if(idade2 > maior){
+            maior = idade2
         }
+        if(idade3 > maior){
+            maior = idade3
+        }
+        if(idade4 > maior){
+            maior = idade4
+        }if(idade5 > maior){
+            maior = idade5
+        }
+        document.write("maior idade ", maior, "<br>")
+
+        let menor = 10000
+
+        if(idade1 < menor){
+            menor = idade1
+        } 
+        if(idade2 < menor){
+            menor = idade2
+        } 
+        if(idade3 < menor){
+            menor = idade3
+        } 
+        if(idade4 < menor){
+            menor = idade4
+        } 
+        if(idade5 < menor){
+            menor = idade5
+        } 
+        document.write("menor idade ", menor)
+        
     </script>
 </body>
 </html>
